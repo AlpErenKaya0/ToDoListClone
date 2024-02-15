@@ -202,7 +202,7 @@ fun LazyItemScope.TodoItem(todo:ToDoEntity, onClick:()->Unit, onDelete:()->Unit)
         Row(modifier = Modifier
             .fillMaxWidth()
             .clip(RoundedCornerShape(5.dp))
-            .background(color)
+            .background(color = Color.Blue)
             .clickable {
                 onClick()
             }
